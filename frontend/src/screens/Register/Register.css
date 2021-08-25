@@ -1,0 +1,8 @@
+.register {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+.register-btn {
+  display: inline;
+}

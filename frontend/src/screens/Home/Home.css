@@ -1,0 +1,23 @@
+.homescreen {
+  /* max-width: 1300px; */
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+  margin: auto;
+}
+.description {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.buttons {
+  padding-top: 25px;
+  width: 40%;
+  margin: auto;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+.btn-link {
+  width: 170px;
+  height: 70px;
+}

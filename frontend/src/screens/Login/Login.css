@@ -1,0 +1,13 @@
+.login {
+  width: 100%;
+  text-align: center;
+
+  padding-top: 30px;
+}
+
+.error-msg {
+  justify-content: space-around;
+}
+.login-btn {
+  justify-content: space-around;
+}
