@@ -5,7 +5,7 @@
 > curl -X POST -d "password=<your_password>&fullName=<your_fullName>&email=<your_email>&isAdmin=<true/false>" http://127.0.0.1:5000/api/users/register/
 > 
 #### Logging In
-> curl -X POST -d "password=<your_password>&username=<your_email>" https://messaging-django.herokuapp.com/api/users/registration
+> curl -X POST -d "password=<your_password>&username=<your_email>" http://127.0.0.1:5000/api/users/login/
 * Notice that in username you should pass your Email!
 ##### Respond if Valid:
 > { "token" : "your_token", isAdmin: "true/false", "email": "your_email" }
